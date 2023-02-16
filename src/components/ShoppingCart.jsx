@@ -44,8 +44,10 @@ const ShoppingCart = () => {
                 <div className='cart-product' key={product.id}>
                     <h3>{product.title}</h3>
                     <h4>{product.description}</h4>
-                    <button onClick={()=> deleteProducto(product.id)}>delete</button>
-                    <button onClick={()=> updateProduct({id: product.id, title:'edit titulo', description: 'edit description'})}>Edit</button>
+                    <div className='botones'>
+                        <button className='minibutton' onClick={()=> updateProduct({id: product.id, title:'edit titulo', description: 'edit description'})}>Edit</button>
+                        <button className='minibutton' onClick={()=> deleteProducto(product.id)}>delete</button>
+                    </div>
                 </div>
             ))}
         </div><br/><br/>     

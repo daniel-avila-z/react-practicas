@@ -17,7 +17,6 @@ const Counter = () => {
                 <h3>Numero de clicks: {counter}</h3>
             </div>
         </div>
-        
    </>)
 }
 

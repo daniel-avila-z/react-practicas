@@ -27,7 +27,6 @@ const Product = () => {
             <h4>{product.title}</h4>
             <h4>{product.description}</h4>
             {/* para llevar de objeto Json a texto. */}
-
         </div>
         <pre className='objeto-json'>{JSON.stringify(product, null, 3 )}</pre>
     </div>
