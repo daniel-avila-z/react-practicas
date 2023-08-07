@@ -1,3 +1,6 @@
 node_modules
 dist
 .gitignore
+package-lock.json
+dist/bundle.js
+dist/bundle.js.LICENSE.txt
